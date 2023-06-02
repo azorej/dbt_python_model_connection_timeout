@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dbt-python-model-connection-timeout"
+version = "0.1.0"
+description = ""
+authors = ["Leonid Kozhinov <lkozhinov@toloka.ai>"]
+readme = "README.md"
+packages = [{include = "dbt_python_model_connection_timeout"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-core = "1.5.1"
+dbt-databricks = "1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
